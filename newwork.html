@@ -1,45 +1,55 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>work note</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"><!-- /* 주석(ctrl+k+c) 부트스트랩 링크? */ -->
-    <style>
-      .bg {
-      background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
-      }
-      .bgbx{
-      background-color: aquamarine;
-      }
-    </style>
-  </head>
-  <body class="bg">
-    <h1 class="bgbx">제작 기록중</h1>
-      <div class="card w-50">
-        <div class="card-body">
-          <h5 class="card-title text-center">구글시트 링크 연결</h5>
-          <p class="card-text text-center">피땀눈물이 베어있는 구글시트...또로록...</p>
-          <div style="">
-            <a href="https://docs.google.com/spreadsheets/d/1wIKbtU6ZJrav6qnmhkB7PFciCYohgovIScghfAEhCdg/edit#gid=836350459" class="btn btn-primary">2023 공정시트</a>
-            <a href="https://docs.google.com/spreadsheets/d/1ziK-H6dq5a_29EIYimEPyJhAHa0iZ2kXbJwPKmoVsgc/edit#gid=1256526215" class="btn btn-primary">각팀공정계획</a>
-            <a href="https://docs.google.com/spreadsheets/d/1wIKbtU6ZJrav6qnmhkB7PFciCYohgovIScghfAEhCdg/edit#gid=93066370" class="btn btn-primary">납품예정달력 보기</a>
-          </div>
-        </div>
-      </div>
 
-      <div class="card w-75">
-          <div class="card-body">
-            <h5 class="card-title">양식제작 test</h5>
-            <p class="card-text">이런 양식을 작성하면 자동으로 값이 들어간다는 상상을 해보았다.</p>
-            <div>
-              <a href="#" class="btn btn-primary">1 신규제작 [입력]</a>
-              <a href="#" class="btn btn-primary">2 제작내역 [수정]</a>
-              <a href="#" class="btn btn-primary">3 진행중인 제작 보기</a>
-              <a href="#" class="btn btn-primary">4 납품예정달력 보기</a>
-            </div>
-          </div>
-        </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script><!-- /* 주석(ctrl+k+c) 자바 링크?*/ -->
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>new work</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+  <h1>신규 제작 기입</h1>
+  
+  <div>
+    키워드 검색(기존 제작이력 확인)
+  </div>
+
+  <div>
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">제작명</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">의뢰기관명</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    제작 희망 사양
+
+    납품 희망일
+    담당자
+    담당자 연락처
+    담당자 이메일
+    담당자 특이사항
+    
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">상담 요약</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">기타 메모사항</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+  </div>
+
+  <div>
+    현재 진행중인 제작목록
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
